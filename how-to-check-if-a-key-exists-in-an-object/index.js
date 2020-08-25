@@ -17,4 +17,4 @@ console.log('color' in dog) // true
 
 // Add fallback in case a key doesn't exist
 const hasName = dog.name || 'Jack'
-console.log(hasName)
+console.log(hasName) // Jack
