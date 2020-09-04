@@ -1,6 +1,6 @@
 // How to compare two objects
 
-// Start with three objects
+// Start with some objects
 const apple = {
   type: 'fruit',
   color: 'red',
