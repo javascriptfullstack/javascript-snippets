@@ -1,4 +1,4 @@
-// How to get the last number of characters of a string
+// How to get the last number of characters in a string
 
 // Start with a string
 const name = 'JavaScript Full Stack'
