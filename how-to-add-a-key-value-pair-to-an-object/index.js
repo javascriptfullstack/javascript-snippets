@@ -7,7 +7,7 @@ const orange = {
 }
 
 // Method 1: Dot notation
-orange.shaipe = 'circle'
+orange.shape = 'circle'
 
 // Method 2: Square bracket notation
 orange['weight'] = 4
