@@ -12,3 +12,8 @@ console.log(method1) // [ 'JavaScript', 'Full', 'Stack', 3, 37 ]
 // Returns a new array
 const method2 = array.filter(item => item !== null && item !== undefined)
 console.log(method2) // [ 'JavaScript', 'Full', 'Stack', 3, 37 ]
+
+// Method 3: Double NOT operators
+// Returns a new array
+const method3 = array.filter(item => !!item)
+console.log(method3) // [ 'JavaScript', 'Full', 'Stack', 3, 37 ]
