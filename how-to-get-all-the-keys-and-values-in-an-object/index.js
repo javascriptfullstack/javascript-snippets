@@ -23,5 +23,5 @@ const entries = Object.entries(person)
 console.log(entries) // [['firstName', 'John'], ['lastName', 'Doe'], ['age', 25]]
 
 // Get original object back
-const obj = Object.fromEntries(entries)
+const obj = Object.fromEntries(new Map(entries))
 console.log(obj) // { firstName: 'John', lastName: 'Doe', age: '25 }
