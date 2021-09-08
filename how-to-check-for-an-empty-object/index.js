@@ -21,8 +21,12 @@ const isEmpty = object => {
     }
   }
 
-  return JSON.stringify(object) === JSON.stringify({})
+  return true
 }
 
 console.log(isEmpty(object1)) // false
 console.log(isEmpty(object2)) // true
+
+// Method 3: JSON.stringify()
+console.log(JSON.stringify(object1) === JSON.stringify({})) // false
+console.log(JSON.stringify(object2) === JSON.stringify({})) // true
