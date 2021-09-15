@@ -1,2 +1,3 @@
 # javascript-snippets
-Useful code snippets for vanilla JavaScript
+
+Useful code snippets for all things JavaScript
